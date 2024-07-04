@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'AvenirLTStd-Bold';
+    src:url('../../dist/css/fonts/AvenirLTStd-Black/AvenirLTStd-Black.woff') format('woff'),
+        url('../../dist/css/fonts/AvenirLTStd-Black/AvenirLTStd-Black.woff2') format('woff2'),
+        url('../../dist/css/fonts/AvenirLTStd-Black/AvenirLTStd-Black.eot'),
+        url('../../dist/css/fonts/AvenirLTStd-Black/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../dist/css/fonts/AvenirLTStd-Black/AvenirLTStd-Black.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-regular';
+    src:url('../../dist/css/fonts/AvenirLTStd-Book/AvenirLTStd-Book.woff') format('woff'),
+        url('../../dist/css/fonts/AvenirLTStd-Book/AvenirLTStd-Book.woff2') format('woff2'),
+        url('../../dist/css/fonts/AvenirLTStd-Book/AvenirLTStd-Book.eot'),
+        url('../../dist/css/fonts/AvenirLTStd-Book/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../../dist/css/fonts/AvenirLTStd-Book/AvenirLTStd-Book.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-medium';
+    src:url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.woff') format('woff'),
+        url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.woff2') format('woff2'),
+        url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.eot'),
+        url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../../dist/css/fonts/AvenirLTStd-Roman/AvenirLTStd-Roman.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$global-white: #fff;
+$global-black: #000;
+$white-75: #F9F9F9;
+$white-50: #C0C0C0;
+$primary-color: #0063E5;
+$primary-btn-hover-bg: #0150b8;
+$button-background-bg: #2B2D37;
+$button-bg: #0000005d;
+$button-hover-bg: #00000083;
+$accordion-bg: #13151D;
+$avenirLTStd-medium-font: "avenirLTStd-medium";
+$avenirLTStd-regular-font: "avenirLTStd-regular";
+$avenirLTStd-bold-font: "avenirLTStd-bold";
+$font-size-x-sm: 12px;
+$font-size-sm: 16px;
+$font-size-md: 27px;
+$font-size-lg: 43px;

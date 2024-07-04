@@ -1,0 +1,321 @@
+.banner {
+    background-image: url(../../images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 675px;
+
+    .log-in-btn {
+        top: 10px;
+        right: 38px;
+    }
+
+    .hero-content-wrapper {
+        .top-brands-btn {
+            gap: 24px;
+
+            .brands-1 {
+                figure {
+                    max-width: 307px;
+                    width: 100%;
+                    padding-bottom: 28px;
+                }
+            }
+        }
+
+        .hero-text {
+            padding: 32px 0;
+
+            span {
+                color: $white-75;
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .lg-brand-logo {
+            max-width: 600px;
+        }
+
+        .view-btn {
+            margin-top: 32px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.category-section {
+
+    .category-buttons {
+        padding-bottom: 24px;
+        gap: 28px;
+
+        .button-cat {
+            border-bottom: 2px solid transparent;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            &.active {
+                border-color: $white-75;
+            }
+        }
+    }
+
+    .category-content-grid {
+        min-height: 516px;
+        row-gap: 24px;
+
+        .hide {
+            display: none !important;
+        }
+
+        .content-item {
+            figure {
+                max-width: 410px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.purchase-plan {
+    position: relative;
+
+    .head-text {
+        p {
+            font-size: 20px;
+            padding: 26px 0;
+        }
+    }
+
+    .switch-button {
+        background-color: $button-background-bg;
+        width: 319px;
+        height: 58px;
+        text-align: center;
+        will-change: transform;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: .3s ease all;
+
+        &-case {
+            display: inline-block;
+            background: none;
+            width: 49%;
+            height: 100%;
+            color: white;
+            position: relative;
+            border: none;
+            transition: .3s ease all;
+            letter-spacing: 2px;
+            padding-bottom: 1px;
+            font-size: 16px;
+
+            &:focus {
+                outline: none;
+            }
+
+        }
+
+        .span-active {
+            background-color: $primary-color;
+            position: absolute;
+            left: 4px;
+            top: 6px;
+            width: 48%;
+            height: 79%;
+            z-index: -1;
+            transition: .3s ease-out all;
+            border-radius: 50px;
+
+            &-case {
+                color: #151515;
+            }
+        }
+    }
+
+    .plan-content-wrapper {
+        padding-top: 24px;
+
+        .plan-card {
+            padding: 41px 45px;
+            border: 1px solid $white-50;
+            max-width: 380px;
+            width: 100%;
+
+            .plan-brands {
+                max-width: 173px;
+                width: 100%;
+                margin-bottom: 28px;
+                height: 40px;
+
+                img {
+                    object-fit: cover;
+                }
+            }
+
+            .plan-descp {
+                min-height: 280px;
+
+                .offer-list {
+                    margin-top: 16px !important;
+
+                    li {
+                        i {
+                            font-size: 28px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            .pricing {
+                p {
+                    padding-bottom: 16px;
+
+                    span {
+                        font-size: 27px;
+                        font-family: $avenirLTStd-bold-font;
+                    }
+                }
+            }
+        }
+    }
+
+    .plan-below-text {
+        margin-top: 24px;
+
+        a {
+            color: #fff;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.watch-the {
+    .the-way-img {
+        max-width: 640px;
+        width: 100%;
+    }
+
+    .watch-text-wrapper {
+        ul {
+            padding-top: 24px;
+            padding-bottom: 20px;
+            gap: 20px;
+            max-width: 548px;
+
+            li {
+                list-style: url(../../images/dot.png);
+            }
+        }
+    }
+}
+
+.disney-bundle-banner {
+
+    .row {
+        background-color: #000f66;
+        border-radius: 8px;
+
+        p {
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            max-width: 100%;
+            margin: 25px 0;
+        }
+
+        .bundle-poster {
+            max-width: 630px;
+            width: 100%;
+        }
+    }
+}
+
+.reponsive-device {
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    .device-wrapper {
+        max-width: 302px;
+        width: 100%;
+
+        h3 {
+            padding: 18px 0;
+        }
+
+        ul {
+            gap: 10px;
+
+            li {
+                font-size: 18px;
+                color: $white-50;
+            }
+        }
+    }
+}
+
+.FAQ {
+    margin-top: 100px;
+
+    .FAQ-head {
+        margin-bottom: 32px;
+    }
+
+    .accordion {
+        --bs-accordion-bg: $accordion-bg;
+        --bs-accordion-color: $white-75;
+        gap: 18px;
+
+        .accordion-button {
+            color: $white-75;
+            padding: 29px 24px;
+            font-size: 20px;
+            font-family: $avenirLTStd-regular-font;
+
+            &:after {
+                filter: invert(1);
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: $white-75;
+            background-color: $accordion-bg;
+            box-shadow: unset;
+        }
+
+        .accordion-item {
+            border-radius: 0;
+            --bs-accordion-color: $white-75;
+            background-color: $accordion-bg;
+            border: none;
+
+            .accordion-body {
+                font-size: 20px;
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .button-cat{
+        font-size: 13px;
+        text-wrap: nowrap;
+    }
+}
